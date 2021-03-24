@@ -1,0 +1,31 @@
+{
+  "name": "my-first-snowpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "snowpack build",
+    "watch": "snowpack build --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "snowpack": {
+    "exclude": [
+      "*.js",
+      "*.json"
+    ],
+    "buildOptions": {
+      "out": "./dist"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.1.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
